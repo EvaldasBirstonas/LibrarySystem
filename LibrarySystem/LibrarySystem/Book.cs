@@ -17,6 +17,14 @@ namespace LibrarySystem
         public Customer Customer { get; set; }
 
         /// <summary>
+        /// Empty Book constructor
+        /// </summary>
+        public Book()
+        {
+
+        }
+
+        /// <summary>
         /// Book constructor
         /// </summary>
         /// <param name="name">Book name</param>
