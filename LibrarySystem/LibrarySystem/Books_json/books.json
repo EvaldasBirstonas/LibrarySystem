@@ -5,7 +5,8 @@
     "Category": "C",
     "Language": "D",
     "Publication_date": "2021-06-08T17:41:12.6991384+03:00",
-    "ISBN": "TRIETOJ415"
+    "ISBN": "TRIETOJ415",
+    "Customer": null
   },
   {
     "Name": "A",
@@ -13,6 +14,25 @@
     "Category": "C",
     "Language": "D",
     "Publication_date": "2021-06-08T17:41:12.6991384+03:00",
-    "ISBN": "TRIETOJ415"
+    "ISBN": "TRIETOJ416",
+    "Customer": null
+  },
+  {
+    "Name": "B",
+    "Author": "C",
+    "Category": "D",
+    "Language": "E",
+    "Publication_date": "1998-10-04T00:00:00",
+    "ISBN": "TRIETOJ417",
+    "Customer": null
+  },
+  {
+    "Name": "F",
+    "Author": "G",
+    "Category": "H",
+    "Language": "J",
+    "Publication_date": "2000-08-10T00:00:00",
+    "ISBN": "TRIETOJ418",
+    "Customer": null
   }
 ]

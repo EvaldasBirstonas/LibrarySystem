@@ -14,6 +14,7 @@ namespace LibrarySystem
         public string Language { get; set; }
         public DateTime Publication_date { get; set; }
         public string ISBN { get; set; }
+        public Customer Customer { get; set; }
 
         /// <summary>
         /// Book constructor
@@ -32,10 +33,27 @@ namespace LibrarySystem
             Language = language;
             Publication_date = publication_date;
             ISBN = isbn;
+            Customer = null;
         }
         public override string ToString()
         {
             return "Name: " + Name + " " + Author + " " + Category + " " + Language + " " + Publication_date + " " + ISBN;
+        }
+    }
+    /// <summary>
+    /// Customer class to know if the book is taken and when it should be brought back
+    /// </summary>
+    public class Customer
+    {
+        public string CustomerName { get; set; }
+        public DateTime TimeOfTaking { get; set; }
+        public DateTime ReturnTime { get; set; }
+
+        public Customer(string customerName, DateTime timeOfTaking, DateTime returnTime)
+        {
+            CustomerName = customerName;
+            TimeOfTaking = timeOfTaking;
+            ReturnTime = returnTime;
         }
     }
 }
