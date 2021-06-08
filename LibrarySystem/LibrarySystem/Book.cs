@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem
 {
-    class Book
+    public class Book
     {
         public string Name { get; set; }
         public string Author { get; set; }
@@ -43,6 +43,10 @@ namespace LibrarySystem
             ISBN = isbn;
             Customer = null;
         }
+        /// <summary>
+        /// Override for easier display
+        /// </summary>
+        /// <returns>Object in string format</returns>
         public override string ToString()
         {
             return "Name: " + Name + " " + Author + " " + Category + " " + Language + " " + Publication_date + " " + ISBN;
